@@ -18,8 +18,9 @@ group = 'com.millervein.athena'
 version = '0.0.1'
 sourceCompatibility = 1.8
 
-springBoot {
-    executable = true
+jar {
+	baseName = 'athena-keyserver'
+	version =  '0.0.1'
 }
 
 repositories {
